@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import { Main } from './features/main/Main';
 
 function App() {
   return (
@@ -51,6 +52,10 @@ function App() {
           </a>
         </span>
       </header>
+      <div>
+        Test
+      </div>
+      <Main />
     </div>
   );
 }
