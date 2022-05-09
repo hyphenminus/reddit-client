@@ -37,3 +37,12 @@
     transform: translateY(0px);
   }
 }
+
+* {
+  overflow-wrap: break-word;
+}
+
+img, video {
+  max-width: 100%;
+  box-sizing: border-box;
+}
